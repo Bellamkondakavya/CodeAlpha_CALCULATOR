@@ -26,7 +26,6 @@ function calculate() {
   }
 }
 
-/* KEYBOARD SUPPORT */
 document.addEventListener("keydown", (e) => {
   if (/[0-9+\-*/.]/.test(e.key)) {
     append(e.key);
